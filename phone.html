@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>行動電話意見表</h1>
+    <table cellpadding="10" border="1">
+        <td>
+        <form action="/test.aspx" method="post">
+        姓名:<input type="text">
+        <br>
+        <br>
+        E-mail:<input type="email" name="email">
+        </form>
+        </td>
+    </table>
+    <br>
+    <br>
+    您使用手機最常碰到哪些問題?
+    <br>
+    <textarea name="message" rows="8" cols="32" ></textarea>
+    <br>
+    <br>
+    <br>
+    <br>
+    <form action="/action_page.php">
+        <label for="cars">您使用過哪家業者的門號?(可複選)</label>
+        <select id="cars" name="cars" size="4" multiple>
+            <option value="中華電信">中華電信</option>
+            <option value="台灣大哥大">台灣大哥大</option>
+            <option value="遠傳">遠傳</option>
+            <option value="台灣之星">台灣之星</option>
+        </select>
+        <br>
+        <button type="submit">提交</button>
+        <button type="submit">重設</button>
+        </form>
+</body>
+</html>
